@@ -24,7 +24,7 @@ pauseTime.addEventListener("click", stopTime)
 resetTime.addEventListener("click", restartTime)
 
 plusThirtyMin.addEventListener("click", function(){
-    timeLeft = 10;
+    timeLeft = 30*60;
     // alert("30min of study time")
     interval = setInterval(() => {
         timeLeft--;
