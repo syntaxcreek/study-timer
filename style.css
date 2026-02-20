@@ -1,0 +1,57 @@
+body {
+    min-height: 700px;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+/* h1 {
+    font-family: sans-serif;
+    
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.TimerFunctions {
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+h2 {
+    font-family: sans-serif;
+    text-align: center;
+} */
+
+.timer {
+    font-size: 50px;
+}
+
+.pause_play_icon {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.pause_play_icon i {
+    margin: 0 30px;
+}
+
+.reset {
+    color: lightgoldenrodyellow;
+    background-color: black;
+    border-radius: 20pt;
+    border: none;
+    text-align: center;
+}
+
+.Times_to_add {
+    border: none;
+    border-radius: 10px;
+    size: 50px;
+    color: lightyellow;
+}

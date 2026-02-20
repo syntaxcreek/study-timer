@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Study-Timer</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body >
+        <img src="duckicon.png" width="175" height="175">
+        <h1>Study Timer</h1>
+            <p class="timer" id="clock" style="font-size: 70pt;">00:00</p>
+            <br>
+        <div class="pause_play_icon">
+            <i id="start" class="fa-solid fa-play"></i>
+            <i id="end" class="fa-solid fa-pause"></i>
+        </div>
+        <br>
+        <button id="reset" style="border: none; background-color: black; color: lightyellow; font-size: 15px; border-radius: 20px; padding: 17px;">Reset</button>
+        <br>
+        <br>
+        <div class="Times_to_add">
+            <button id="thirtyMin" style="border: none; background-color: black; color: lightyellow; font-size: 15px; border-radius: 20px; padding: 17px;">+30min</button>
+            <button id="fiveMin" style="border: none; background-color: black; color: lightyellow; font-size: 15px; border-radius: 20px; padding: 17px;">+5min</button>
+            <button id="thirtySec" style="border: none; background-color: black; color: lightyellow; font-size: 15px; border-radius: 20px; padding: 17px;">+30sec</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
